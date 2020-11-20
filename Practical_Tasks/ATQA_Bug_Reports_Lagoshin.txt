@@ -1,0 +1,30 @@
+1. Bug- Unclickable 'Ñòàòò³' link in the header. 
+
+  - Summary: Users are unable to click on and get redirected to the 'Ñòàòò³' page at the header; 
+
+  - Steps to reproduce: Open https://pravda.if.ua/ > click on 'Ñòàòò³' in the website's header > URL changes to https://pravda.if.ua/# no redirection;
+
+  - Expected result: Users should be able to click on the link and get redirected to the 'Ñòàòò³' page.
+
+  - Environment: Production; Windows 10; Google Chrome Version 86.0.4240.198;  
+
+2. Bug- Malfunction of 'ÇÀÌÎÂÈÒÈ ÐÅÊËÀÌÓ' link at the footer. 
+
+  - Summary: Useres are not redirected to the required page upon clicking on 'ÇÀÌÎÂÈÒÈ ÐÅÊËÀÌÓ' at wesite's footer.
+  
+  - Steps to reproduce: Open https://pravda.if.ua/ > Scroll down till the footer > clicking on 'ÇÀÌÎÂÈÒÈ ÐÅÊËÀÌÓ' >  URL changes to https://pravda.if.ua/# redirecting users back to the header; 
+
+  - Expected result: Users should get redirected to https://pravda.if.ua/zamovyty-reklamu/ when clicking on 'ÇÀÌÎÂÈÒÈ ÐÅÊËÀÌÓ' at the footer; 
+
+  - Environment: Production; Windows 10; Google Chrome Version 86.0.4240.198; 
+
+3. Bug- Fixed location of the 'You Must Be Logged In To Vote' notification upon voting on comments. 
+
+  - Summary: 'You Must Be Logged In To Vote' notification does not take into account user's position on the website and appears in a fixed location only. 
+
+  - Steps to reproduce: Open https://pravda.if.ua/ click on any article > scroll down till comments section > if there are no comments, leave one > Scroll down to have the comment alligned right under the URL bar of the browser > Try to vote on the comment by clickng on '-' or '+' under it > Notification appears at the fixed location outside user's screen area requiiring several 'vote' clicks to appear in the user's screen area.  
+  
+  - Expected result: Notification should always appear at the top of user's screen; 
+
+  - Environment: Production; Windows 10; Google Chrome Version 86.0.4240.198; 
+
