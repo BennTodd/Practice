@@ -1,0 +1,63 @@
+Test Scenario 1: Check pagination functionality. 
+
+Test case: 
+
+   - Open https://pravda.if.ua/ in a browser;
+   
+   - Scroll down till the pagination on top of the website's footer; 
+ 
+   - Click on any page; 
+
+   - Get redirected to the selected page. 
+
+Test Scenario 2: Check the search bar functionality. 
+
+Test Case: 
+
+   - Open https://pravda.if.ua/ in a browser;
+
+   - Navigate to the 'magnifying glass' icon and click on it; 
+
+   - Enter some text in the search bar and click 'Search'; 
+
+   - Get redirected to the search results by the entered text. 
+
+Test Scenario 3: Check calendar's (archived news) functionality. 
+
+Test Case:
+
+    - Open https://pravda.if.ua/ in a browser;
+    
+    - Scroll down till the calendar; 
+
+    - Select and click on any past date; 
+
+    - Get redirected to the page with archived news for the selected date.
+
+Test Scenario 4: Check 'back to header' button functionality. 
+
+Test Case: 
+  
+    - Open https://pravda.if.ua/ in a browser;
+
+    - Scroll down till the website's footer; 
+    
+    - Navigate to the arrow button in the lower right corner and click on it; 
+
+    - Get pushed back to the header. 
+
+
+Test Scenario 5: Check functionality of the shortcut button to the comment section. 
+
+    Test Case: 
+
+        - Open https://pravda.if.ua/ in a browser;
+
+        - Click on any article;
+
+        - Once redirected to a new page, navigate to the 'message circle' in the lower left corner and click on it;
+
+        - Get pushed to the comment section of the article. 
+   
+  
+
