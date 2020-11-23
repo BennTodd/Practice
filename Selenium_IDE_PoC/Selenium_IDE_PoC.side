@@ -1,0 +1,229 @@
+{
+  "id": "7e1013ac-7801-4d23-a932-6cf06f26e647",
+  "version": "2.0",
+  "name": "Selenium_IDE_PoC",
+  "url": "https://www.namecheap.com/",
+  "tests": [{
+    "id": "5329d058-5a99-40aa-90e0-41dcf0b32118",
+    "name": "Promos",
+    "commands": [{
+      "id": "29824507-721b-4fe4-8a9c-dfa5b5fb9304",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.namecheap.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "460fa654-8025-4ee3-8ad2-17e8a173cacf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb942133-5704-4a97-9a08-b974012d8db3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2585)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "087b2ae5-c0cb-4d25-968b-dbc15e4f3b09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4804)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73ed9ebb-72b3-4d86-9d3e-5ed7e7c2bca7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gb-col-4:nth-child(2) > .gb-mb-3:nth-child(5) a",
+      "targets": [
+        ["css=.gb-col-4:nth-child(2) > .gb-mb-3:nth-child(5) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Promos')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.namecheap.com/promos/')]", "xpath:href"],
+        ["xpath=//div[5]/b/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7a91e7c2-4445-481b-9d5f-09114d36e863",
+    "name": "Add to cart",
+    "commands": [{
+      "id": "32779d2a-b8cf-4cf3-8747-28e1169f4c25",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.namecheap.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c41cf82a-dc6a-4bd9-a267-75062d30b475",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90fd1a07-8384-480f-a604-337529bccb1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=static-domain-search-domain-search-input",
+      "targets": [
+        ["id=static-domain-search-domain-search-input", "id"],
+        ["name=domain", "name"],
+        ["css=#static-domain-search-domain-search-input", "css:finder"],
+        ["xpath=//input[@id='static-domain-search-domain-search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='static-domain-search']/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "jsfjlsgignanog;oeamrgae.com"
+    }, {
+      "id": "a59633d6-7a55-4693-b700-d80bf3072fdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#static-domain-search .search-domain-btn",
+      "targets": [
+        ["css=#static-domain-search .search-domain-btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='static-domain-search']/div[2]/form/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49062d4b-cef9-45e1-9e21-a53f80cdcebc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard > .domain-com > .available",
+      "targets": [
+        ["css=.standard > .domain-com > .available", "css:finder"],
+        ["xpath=(//button[@type='button'])[925]", "xpath:attributes"],
+        ["xpath=//div[@id='react-nc-search']/div/div/section/article/button", "xpath:idRelative"],
+        ["xpath=//article/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "89998e6e-248b-4e0a-8465-6229657541bd",
+    "name": "Terms and Conditions",
+    "commands": [{
+      "id": "07bfcf43-3279-47ee-aa70-65d0291738e4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.namecheap.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5a91838-ee8d-4401-8d93-35c33aeeacf8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1c2c25a-f8a1-4ec2-8bc0-59e9123d5aeb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,9840)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7c317fc-93b0-4686-9db5-250fb6945d4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gb-terms-list__item:nth-child(1) span",
+      "targets": [
+        ["css=.gb-terms-list__item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[2]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Terms and Conditions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "980a896f-0880-458c-9699-1a81b248ba70",
+    "name": "Email",
+    "commands": [{
+      "id": "777b59b3-2ba8-4dd5-af7a-3908ed47617e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.namecheap.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72119696-ffbf-46c9-ae03-89498d3a77b0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82b94ff7-41a3-4834-9c6f-6d457b7e48e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Email",
+      "targets": [
+        ["linkText=Email", "linkText"],
+        ["css=.gb-is-opened .gb-input-group__item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Email')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.namecheap.com/hosting/email/')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Email')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "85c5dfcf-4aab-449b-b2bb-9199bccd5911",
+    "name": "TLDs",
+    "commands": [{
+      "id": "e9466193-e437-4037-9447-9d8691774d78",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.namecheap.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0e1f5f9-b439-48f9-ba1e-3b649bc6dc6c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13820562-b53c-4e0e-b41f-535dcacc3482",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Domain Name Search",
+      "targets": [
+        ["linkText=Domain Name Search", "linkText"],
+        ["css=.gb-is-opened .gb-dropdown__item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Domain Name Search')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.namecheap.com/domains/domain-name-search/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Domain Name Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81fdf7e1-f6a0-4caf-95eb-ab2c7952e911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gb-mb-6",
+      "targets": [
+        ["css=.gb-mb-6", "css:finder"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'+ Show More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "06721533-1dd5-4970-8b28-3c6c320a2e53",
+    "name": "Practical_Task",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7a91e7c2-4445-481b-9d5f-09114d36e863", "980a896f-0880-458c-9699-1a81b248ba70", "5329d058-5a99-40aa-90e0-41dcf0b32118", "85c5dfcf-4aab-449b-b2bb-9199bccd5911", "89998e6e-248b-4e0a-8465-6229657541bd"]
+  }],
+  "urls": ["https://pravda.if.ua/", "https://www.namecheap.com/"],
+  "plugins": []
+}

@@ -1,0 +1,59 @@
+Test Scenario 1: Check Promos page. 
+
+Test case: 
+
+   - Open https://www.namecheap.com/ in a browser;
+   
+   - Scroll down till the website's footer; 
+ 
+   - Click on Promo; 
+
+   - Get redirected to the Promos page. 
+
+Test Scenario 2: Check the functionality of the 'Add to cart' button. 
+
+Test Case: 
+
+   - Open https://www.namecheap.com/ in a browser;
+
+   - Navigate to the search bar;
+
+   - Enter some domain and click 'Search'; 
+
+   - Get redirected to the search results;
+
+   - Navigate to 'Add to cart' button and click on it; 
+
+Test Scenario 3: Check 'Terms and Conditions' page functionality. 
+
+Test Case:
+
+    - Open https://www.namecheap.com/ in a browser;
+    
+    - Scroll down till the website's footer; 
+
+    - Click on 'Terms and Conditions' 
+
+    - Get redirected to the page with Terms and Conditions.
+
+Test Scenario 4: Check 'Email' tab functionality. 
+
+Test Case: 
+  
+    - Open https://www.namecheap.com/ in a browser;
+
+    - Navigate to 'Email' tab and click on it; 
+    
+    - Get redirected to the Email page; 
+
+Test Scenario 5: Check functionality of the TLDs table. 
+
+    Test Case: 
+
+        - Open https://www.namecheap.com/ in a browser;
+
+        - Mouse over 'Domains' tab and click on 'Domain Name Search' from the drop down;
+
+        - Once redirected to a new page, scroll down till the TLDs table;
+
+        - Navigate to te 'Show More' button and click on it. 
