@@ -1,0 +1,63 @@
+Test Scenario 1: Check Promo page. 
+
+Test case: 
+
+   - Open https://www.namecheap.com/ in a browser;
+   
+   - Navigate to the website's footer;  //div[@class="gb-footer"] ||| .gb-footer  OR  //div[@class="gb-scope gb-uilayout-app"]/footer/div[1]  ||| .gb-uilayout-footer>div:first-child
+ 
+   - Click on Promo link;  //a[@href="https://www.namecheap.com/promos/"] |||  .gb-mb-3>b>a[href='https://www.namecheap.com/promos/']   OR  //*[@class="gb-mb-3"]//a[@href="https://www.namecheap.com/promos/"] ||| div .gb-mb-3:nth-of-type(5) [href="https://www.namecheap.com/promos/"]
+
+   - Validate redirection to the Promos page. //*[@class='gb-hero__body' and contains(. , 'Check Out Our Awesome Promotions')] ||| [class="gb-hero__body"]>p   OR   //p[contains(. , 'Check Out Our Awesome Promotions')] ||| *[class='gb-hero'] p:last-child
+
+Test Scenario 2: Check the 'Add to cart' button. 
+
+Test Case: 
+
+   - Open https://www.namecheap.com/ in a browser;
+
+   - Navigate to the search bar; //*[@id="static-domain-search-domain-search-input"] ||| #static-domain-search-domain-search-input  OR  //div[@class="nchp-search-form__wrap"]//input[@id="static-domain-search-domain-search-input"] | div[class="domain-search-input-holder gbhp-textfield gbhp-textfield--lg"]>[id="static-domain-search-domain-search-input"]
+
+   - Enter some domain; //*[@id="static-domain-search-domain-search-input"] ||| //div[@class="domain-search-input-holder gbhp-textfield gbhp-textfield--lg"]//input[@id="static-domain-search-domain-search-input"] ||| #static-domain-search-domain-search-input
+
+   - Click 'Seacrh' button; //ancestor::div[@id='static-domain-search']//button[@class="search-domain-btn nchp-search-form__submit gbhp-button gbhp-button--primary"] | 
+
+   - Once redirected add the domain to cart; //section[@class="standard"]//article[@class='domain-com available']/button[@class='available'] ||| //div[@class="wrapper"]//section[@class="standard"]//button[@class='available']
+
+   - Navigate to 'Add to cart' to see if item was added; //i[@class='gb-icon gb-icon-cart-added']
+
+Test Scenario 3: Check 'Terms and Conditions' page functionality. 
+
+Test Case:
+
+    - Open https://www.namecheap.com/ in a browser;
+    
+    - Navigate to the website's footer; //*[@class="gb-footer"] | .uilayout2 div[class="gb-footer"]  OR //layout-footer//*[@class="gb-footer"] | div[class="gb-footer"]
+
+    - Click on 'Terms and Conditions' link; //a[@href="https://www.namecheap.com/legal/"] | a:first-child[href="https://www.namecheap.com/legal/"]  OR //span[contains (. , 'Terms and Conditions')]//parent::a  | .gb-terms-list>li:first-child>a
+
+    - Validate redirectin to the Terms and Conditions page. //div[@class='headline']//child::h1 | #ctl00_ctl00_ctl00_ctl00_base_content_web_base_content_home_content_page_content_left_ctl00_heroContainer h1
+
+Test Scenario 4: Check 'Email' tab functionality. 
+
+Test Case: 
+  
+    - Open https://www.namecheap.com/ in a browser;
+
+    - Navigate to 'Email' tab and click on it; //div[@class="gb-input-group"]/a[@href="https://www.namecheap.com/hosting/email/"] | .gb-input-group>[href="https://www.namecheap.com/hosting/email/"]
+    
+    - Validate redirection to the Email page; //h1  | .gb-hero__body>h1
+
+Test Scenario 5: Check functionality of the TLDs table. 
+
+    Test Case: 
+
+        - Open https://www.namecheap.com/ in a browser;
+
+        - Navigate to the 'Domains' tab and click on 'Domain Name Search' from the drop down; //a[@href="https://www.namecheap.com/domains/domain-name-search/"]//parent::div[@class="gb-dropdown__holder"] | //a[@href="https://www.namecheap.com/domains/domain-name-search/"][@class="gb-dropdown__item "] | .gb-dropdown__holder>a[href="https://www.namecheap.com/domains/domain-name-search/"]  
+
+        - Once redirected to a new page, scroll down till the TLD pricing table; //div[@class="gb-row gb-domain-name-search--pricing gb-section"] | div[name="pricing"][class="gb-row gb-domain-name-search--pricing gb-section"  | //div[@class="gb-container"]//div[@name="pricing"]
+ 
+        - Navigate to te 'Show More' button and click on it. //button[@class="gb-btn gb-mb-6 gb-btn-show-more"] | .gb-col-12>.gb-btn-show-more
+
+        - Vlidate tthe table; //a[@href="/domains/registration/gtld/zone/"] | div[class="gb-relative-wrapper"]>a[href="/domains/registration/gtld/zone/"]
